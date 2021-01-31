@@ -14,14 +14,14 @@ Tested on:
 
 ### Install theme
 
-1. Download from https://github.com/Bezvastudio/bs-redmine-theme-light
+1. Download from https://github.com/Bezvastudio/bs-redmine-theme-dark
 1. Move to `redmine/public/theme/`
 
 Or by using git:
 
 ```
 cd redmine/public/theme
-git clone https://github.com/Bezvastudio/bs-redmine-theme-light.git
+git clone https://github.com/Bezvastudio/bs-redmine-theme-dark.git
 ```
 
 ### Change theme
