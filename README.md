@@ -1,7 +1,7 @@
-BS Redmine theme light
+BS Redmine theme Dark
 ==============
 
-Light and modern template for Redmine based on material design.
+Modern dark theme for Redmine based on material design.
 
 ![screnshot](./screenshot.png)
 
