@@ -1,0 +1,163 @@
+.wysiwyg-editor {
+  padding-right: 2px;
+}
+
+.wysiwyg-editor-preview.wiki-preview {
+  background-color: #fafafa;
+}
+
+.wysiwyg-editor-preview p {
+  clear: none;
+  padding: 0;
+}
+
+.wysiwyg-editor-tab {
+  margin: 1ex 0;
+}
+
+.wysiwyg-editor-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wysiwyg-editor-tab ul li {
+  display: inline-block;
+  margin-right: 5px;
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.wysiwyg-editor-tab ul li:hover {
+  background: #222;
+}
+.wysiwyg-editor-tab ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wysiwyg-editor-tab ul li a.active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* FIXME: Tool bar style may be broken under certain Redmine themes. */
+.mce-panel {
+  background-color: transparent!important;
+  border-width: 0!important;
+ 
+}
+
+div.mce-edit-area {
+  background: #2a3038!important;
+}
+
+.mce-flow-layout {
+    margin-bottom: 5px!important;
+}
+
+.mce-tinymce,
+.mce-top-part::before {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.mce-panel.mce-floatpanel {
+  background: white!important;
+}
+
+.mce-panel.mce-floatpanel.mce-window {
+  border: none;
+  background: #191c20!important;
+  border-radius: 5px;
+  color: white!important;
+}
+
+.mce-panel.mce-floatpanel .mce-window-head .mce-title, .mce-panel.mce-floatpanel .mce-container-body .mce-container .mce-widget, .mce-panel.mce-floatpanel .mce-widget.mce-btn .mce-txt {
+  color: white!important;
+}
+.mce-window-head {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+#mce-modal-block {
+  background: #666 url(../../images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat!important;
+  opacity: .8!important;
+}
+
+.mce-window-head .mce-close i {
+    color: red!important;
+}
+
+.mce-panel.mce-floatpanel .mce-widget.mce-btn {
+  border: 0!important;
+  border-radius: 5px!important;
+  /*width: auto!important; */
+  height: auto!important; 
+}
+
+.mce-panel.mce-floatpanel .mce-widget.mce-btn button {
+  padding: 10px 15px!important; 
+  border-radius: 5px;
+}
+
+
+.mce-primary button, .mce-primary button i {
+  color: white!important;
+  background-color: #009edd!important;
+  padding: 10px 15px;
+}
+.mce-primary button:hover, .mce-primary button i:hover
+form input[type="submit"]:hover, .quick-comment button:hover {
+  color: #ffffff;
+  background-color: #0080cc!important;
+}
+
+.mce-btn-group:not(:first-child) {
+  border-left: 0!important;
+  margin-left: 4px!important;
+}
+
+.mce-btn {
+  background: #333!important;
+}
+
+.mce-btn:hover {
+  background: #222!important;
+  border-color: #444!important;
+}
+
+.mce-btn .mce-txt {
+    color: #bbb!important;
+}
+
+.mce-listbox button,
+.mce-listbox:hover button,
+.mce-btn button,
+.mce-btn:hover button,
+.mce-close,
+.mce-close:hover {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.mce-btn button .mce-ico,
+.mce-btn button .mce-caret,
+.mce-container .mce-resizehandle .mce-ico {
+  padding: 0;
+  background-color: transparent;
+  font-size: 16px;
+  color: white!important;
+}
+
+.mce-statusbar {
+  background-color: #333!important;
+  color: #bbb!important;
+}
+.mce-path-item {
+  color: #bbb!important;
+}

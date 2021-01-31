@@ -1,0 +1,173 @@
+/*================================
+Supported plugins
+==================================*/
+/**
+* Redmine WYSIWYG Editor plugin
+* https://github.com/taqueci/redmine_wysiwyg_editor
+*/
+/*@import url(plugins/redmine_wysiwyg_editor.css);*/
+/* Mega Kalendář */
+.fc-event {
+  background-color: rgb(150, 200, 255) !important;
+  border-color: rgb(150, 200, 255) !important;
+}
+
+.fc-event.fc-start {
+  border-left-width: 2px;
+  border-left-color: rgb(100, 150, 255) !important;
+}
+
+.fc-event.fc-end {
+  border-right-width: 2px;
+  border-right-color: rgb(100, 150, 255) !important;
+}
+
+/* CMS plugin */
+.contextual.page-edit {
+  top: inherit !important;
+  left: inherit !important;
+  bottom: 10px !important;
+  right: 0px !important;
+}
+
+/* CRM plugin */
+.controller-contacts #content {
+  width: calc(100% - 450px);
+}
+
+.controller-contacts #sidebar {
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+table.note_data td.name h4 {
+  letter-spacing: inherit !important;
+}
+
+table.contacts.index {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 0 !important;
+}
+
+table.contacts.index td {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-bottom: 0 !important;
+}
+
+table.contacts.index tbody tr:hover {
+  background-color: #27292e !important;
+}
+
+table.contacts.index .context-menu-selection {
+  background-color: #204050 !important;
+}
+
+table.contacts.index .context-menu-selection:hover {
+  background-color: #27292e !important;
+}
+
+table.sidebar.attributes th {
+  padding: 1px 10px 1px 0 !important;
+}
+
+div.contact {
+  background-color: #191c20 !important;
+  padding: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 4px;
+}
+
+#content div.contact h1 {
+  color: #fff !important;
+}
+
+.controller-contacts form#add_issue_form {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 20px !important;
+  width: 83% !important;
+}
+
+.controller-contacts form#add_issue_form input#issue_subject, .controller-contacts form#add_issue_form input#document_title, .controller-contacts form#add_issue_form textarea {
+  width: 92% !important;
+}
+
+/* CRM, Agile */
+.controller-contacts.action-index #sidebar h3:first-of-type, .controller-contacts.action-index #sidebar ul:first-of-type, .controller-agile_boards #sidebar h3:first-of-type, .controller-agile_boards #sidebar ul:first-of-type {
+  display: none;
+}
+
+.agile-board table.list.issues-board tbody tr, .agile-board table.list.issues-board tbody tr:hover {
+    background-color: transparent!important;
+}
+
+/* timesheet plugin */
+#timesheet-form fieldset>div {
+  padding: 5px 30px 5px 0 !important;
+  margin-bottom: 20px;
+}
+
+#timesheet-form fieldset>div .radiobutton-label, #timesheet-form span label, #timesheet-form .group-by label {
+  display: inline-block !important;
+}
+
+#timesheet-form input:not([type=submit]), #timesheet-form select {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  background-color: #2a3038 !important;
+}
+
+label.select-all {
+  background-color: transparent !important;
+}
+
+/* redmine_favorite_project plugin */
+div.project_card {
+  width: 300px !important;
+  padding: 20px !important;
+	background: #191c20 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 4px
+}
+
+div.project_card .parent>h4 {
+  width: auto !important;
+  color: #666 !important;
+}
+
+div.project_card .parent div:last-child {
+  top: -2px;
+  margin-left: 5px;
+}
+
+div.project_card div.title {
+  width: 100% !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 5px 0;
+}
+
+div.project_card div.title h4 a {
+  font-size: 1.5em;
+  color: #fff !important;
+}
+
+#projects_list div.row {
+  padding-left: 0 !important;
+}
+
+div.project_card div.tags {
+  line-height: 8px !important;
+}
+
+div.project_card div.tags span.tag-label-color a {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 899px) {
+  #toggle-sidebar {
+    display: none;
+  }
+}
