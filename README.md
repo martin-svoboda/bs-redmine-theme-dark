@@ -34,7 +34,7 @@ git clone https://github.com/Bezvastudio/bs-redmine-theme-dark.git
 
 ## License
 
-GNU General Public License (GPL) Version 2
+GNU General Public License v3 See http://www.gnu.org/licenses/gpl-3.0.en.html for details
 
 ## Suported plugins
 The template also modifies the basic appearance of the following plugins
